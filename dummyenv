@@ -1,0 +1,10 @@
+key='your secret key'
+GKey='your google drive service account key'
+
+commkey='sendinblue api key'
+commid='sendinblue verified email'
+serverurl='your server url eg. https://www.example.com/'
+client='your client url this should be same as server url'
+database='your mongodb url'
+issuer='your server hostname eg. example.com'
+enableproxytrust='put true if the server is behind proxy and false if not behind a proxy'

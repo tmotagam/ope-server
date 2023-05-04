@@ -1,0 +1,17 @@
+{
+    "root": true,
+    "ignorePatterns": [],
+    "overrides": [
+      {
+        "files": ["*.ts"],
+        "parserOptions": {
+          "project": ["tsconfig.json"],
+          "createDefaultProgram": true
+        },
+        "extends": ["plugin:@typescript-eslint/recommended", "prettier"],
+        "rules": {
+          "quotes": ["warn", "single", { "avoidEscape": true }]
+        }
+      }
+    ]
+  }

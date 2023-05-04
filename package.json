@@ -1,0 +1,45 @@
+{
+  "name": "ope-server",
+  "version": "1.0.0",
+  "description": "Server for OPE system",
+  "main": "main.js",
+  "scripts": {
+    "start:nodemon": "node ./node_modules/.bin/nodemon",
+    "start": "ts-node ./src/main.ts"
+  },
+  "author": "Motagamwala Taha Arif Ali",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "@sendinblue/client": "^3.2.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "express-validator": "^6.14.2",
+    "fluent-ffmpeg": "^2.1.2",
+    "generate-password": "^1.7.0",
+    "googleapis": "^105.0.0",
+    "handlebars": "^4.7.7",
+    "jose": "^4.8.3",
+    "mongodb-cron": "^1.8.0",
+    "mongoose": "^6.4.3",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "@types/express": "^4.17.13",
+    "@types/fluent-ffmpeg": "^2.1.21",
+    "@types/multer": "^1.4.7",
+    "@types/node": "^18.0.1",
+    "@types/node-cron": "^3.0.4",
+    "@typescript-eslint/eslint-plugin": "^5.30.4",
+    "@typescript-eslint/parser": "^5.30.4",
+    "dotenv": "^16.0.1",
+    "eslint": "^8.19.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "nodemon": "^2.0.18",
+    "prettier": "^2.7.1",
+    "ts-node": "^10.8.2",
+    "typescript": "^4.7.4"
+  }
+}
